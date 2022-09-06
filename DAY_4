@@ -143,6 +143,38 @@ public class Solution {
         }
 }
 
+6. The government adds money into the account of a person based on his age. Take
+age and salary of the person as inputs. And print his final income.
+    a. if age is above 60, Rs. 1000 is added into the account
+    b. if age is above 40 and less than or equal to 60, Rs. 500 is added.
+    c. No money is added if the age is less than or equal to 40.
+    
+    code:
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        Scanner xx = new Scanner(System.in);
+        int age = xx.nextInt();
+	int salary = xx.nextInt();
+        if(age>60){
+            System.out.println(salary+1000);
+        }
+        else if(age>40 || age<=60){
+            System.out.println(salary+500);
+	{
+	else if(age<=40){
+            System.out.println(salary);
+	}
+        }
+        }
+}
 
 
 
