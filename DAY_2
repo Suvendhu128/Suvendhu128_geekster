@@ -1,0 +1,173 @@
+1. Take the diameter of a circle as input. Print the area of the circle as integer input.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+      Scanner xx = new Scanner(System.in);
+      int diameter = xx.nextInt();
+      double pi = 3.14;
+      int radius= diameter*2;
+      double area =pi * radius * radius;
+        System.out.println(area);
+    }
+}
+
+2. Take the base and height of a triangle as input and store them in double variables x and y and print its area.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+      Scanner xx = new Scanner(System.in);
+      double base = xx.nextDouble();
+      double hight = xx.nextDouble();
+      double a = base * hight;
+      double area =a/2;
+        System.out.println(area);
+    }
+}
+
+3. Take an input x, check if it is greater than 1000 or not. Print true or false.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+     Scanner xx = new Scanner(System.in);
+      int x = xx.nextInt();
+      if(x>1000){
+        System.out.println("true");
+        }
+      else{
+      System.out.println("false");
+    }
+}
+    
+}
+
+5. Find the answer of the following expressions
+a. Int x = 7+3+4
+ans= 14
+b. Int x = 12 + 5 + 8
+ans= 25
+c. Int x= 13/5 + 18/8
+ans= 4
+d. double x= 12 + 5.0 + 2.76
+ans=19.759999999999998
+e. double x= 12/3 + 13/2
+ans=10
+f. double x=12/3 + 13.0/2
+ans= 10.5
+g. double x=14/2 + 15.0/4
+ans=10.75
+h. double x= 13/2 % 5/3
+ans=0.0
+i. double x= 17.0/2 % 16.0/4
+ans=2.125
+
+6) Store these expressions inside a Boolean variable ans. Print their outputs true or false accordingly
+a. boolean ans = 3 > 2
+ans= true
+b. boolean ans = 3 ≥ 3
+ans= true
+c. boolean ans = 4 + 3 > 9
+ans= false
+d. boolean ans = 10 + 8 > 10
+ans= true
+e. boolean ans = 12 != 10
+ans= true
+f. boolean ans = 13 == 13.
+ans= true
+g. boolean ans = 14 != 14
+ans= false
+h. boolean ans = 20 == 5*4
+ans= true
+i. boolean ans = 30 != 3+4-10
+ans= true
+j. boolean ans = 20 == 41/2
+ans= true
+
+7) Take marks of a student in five subjects as input in a double variable. Print the sum of total marks and also find the percentage of the student.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+     Scanner xx = new Scanner(System.in);
+     System.out.println(" *****PUT MARK***** ");
+     System.out.println("MATH :");
+      double math = xx.nextDouble();
+      System.out.println("ENGLISH :");
+      double english = xx.nextDouble();
+      System.out.println("PHYSICS :");
+      double physics = xx.nextDouble();
+      System.out.println("BIOLOGY :");
+      double biology = xx.nextDouble();
+      System.out.println("IT :");
+      double it = xx.nextDouble();
+      double total= math+english+physics+biology+it; 
+      System.out.println("TOTAL");
+      System.out.println(total);
+      System.out.println("PERCENTAGE");
+      double percentage = total/5;
+      System.out.println(percentage);
+    }
+}
+
+8. Take four integer inputs and check if the product of them is greater than 1000 or not. Print true or false accordingly.
+
+code: 
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+     Scanner xx = new Scanner(System.in);
+     int a = xx.nextInt();
+     int b = xx.nextInt();
+     int c = xx.nextInt();
+     int d = xx.nextInt();
+     int product = a*b*c*d;
+     if (product>1000)
+     {
+         System.out.println("true");
+     }
+     else {
+         System.out.println("false");
+     }
+    }
+}
+
+9. Take an integer input and check if the number is divisible by 7 or not.
+   import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+     Scanner xx = new Scanner(System.in);
+     int a = xx.nextInt();
+     int b = a%7;
+     if (b==0)
+     {
+         System.out.println("divisible by 7");
+     }
+     else {
+         System.out.println("not divisible by 7");
+     }
+    }
+}
+
