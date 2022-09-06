@@ -1,0 +1,133 @@
+1.  Print “Hello I am enjoying coding”
+code:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello I am enjoying coding");
+    }
+}
+
+2. Print the below pattern:
+Hello
+I
+am
+enjoying
+coding
+
+code: 
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Hello");
+        System.out.println("I");
+        System.out.println("am");
+        System.out.println("enjoying");
+        System.out.println("coding");
+    }
+}
+
+3. Find the sum, product of 100,8,3
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+      int a=10;
+      int b=8;
+      int c=3;
+      int sum = a+b+c;
+      int product = a*b*c;
+        System.out.println(sum);
+        System.out.println(product);
+      
+    }
+}
+
+4.  Find the difference between 100 and 40.
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+      int a=100;
+      int b=40;
+      int c= 100-40;
+      System.out.println(c);
+	}
+}
+
+5.  Print the below pattern
+*****
+*****
+*****
+*****
+*****
+*****
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+        System.out.println("*****");
+      
+        }
+}
+
+6.  Print the below pattern
+* *
+* *
+* *
+* *
+* *
+****
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("* *");
+        System.out.println("****");
+      
+        }
+}
+
+7.Find the last digit of the number 987653 
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+      int a= 987653;
+      int b= a%10;
+      System.out.println(b);
+    }
+}
+
+
+8. Store values 15, 4 in m and n variable of int data type then
+Print value of m+n in the first line,
+Print value of m-n in the second line,
+Print value of m*n in the second line.
+
+code:
+
+public class Main {
+    public static void main(String[] args) {
+      int m =15;
+      int n=4;
+      System.out.println(m+n);
+      System.out.println(m-n);
+      System.out.println(m*n);
+      
+      
+    }
+}
