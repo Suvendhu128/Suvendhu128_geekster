@@ -1,0 +1,94 @@
+1. Take an integer input.
+    If the entered number is an even number, then
+        a. If the number is greater than 1000, then print “Even and above 1000”
+        b. Else print “Even”
+    Else If the entered number is an odd number, then
+        a. If the number is greater than 1000, then print “Odd and above 1000”
+        b. Else print “Odd”
+        
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+      Scanner xx = new Scanner(System.in);
+    int x = xx.nextInt();
+        if (x/2==0) {
+            if(x>1000){
+                System.out.println("Even and above 1000");
+            }
+            else{
+                System.out.println("Even");
+            }
+        }
+        else {
+            if (x>1000)
+            {
+                System.out.println("Odd and above 1000");
+            }
+            else {
+                System.out.println("Odd");
+            }
+        }
+	}
+}
+
+
+2. Take integer inputs x, y, z from the user,
+    If the x is divisible by 3, then
+        a. If y is greater than or equal to 200, then add 10 to the value of z.
+        b. Else if y is greater than or equal to 100 but less than 200, then add 5 to the
+           value of z
+        c. Else if y is greater than or equal to 50, but less than 100, then add 4 to the
+           value of z
+        d. Else add 1 to z
+    Else if x is not divisible by 3, then
+        a. If y is greater than or equal to 200, then add 3 to the value of z.
+        b. Else if y is greater than or equal to 100 but less than 200, then add 2 to the
+           value of z
+        c. Else add 1 to z
+In the end add 10 to the value of z and print the final value of z.
+
+code:
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	Scanner xx = new Scanner(System.in);
+    int x = xx.nextInt();
+    int y = xx.nextInt();
+    int z = xx.nextInt();
+        if (x/3==0) {
+            if(y>=200){
+                System.out.println(z+10);
+            }
+            else if(y>=100 && y<200){
+                System.out.println(z+5);
+            }
+            else if(y>=50 && y<100){
+                System.out.println(z+4);
+            }
+            else {
+                System.out.println(z+1);
+            }
+        }
+        else {
+            if(y>=200){
+                System.out.println(z+3);
+            }
+            else if(y>=100 && y<200){
+                System.out.println(z+2);
+            }
+            else if(y>=50 && y<100){
+                System.out.println(z+4);
+            }
+            else {
+                System.out.println(z+1);
+            }
+        }
+	}
+}
+
