@@ -53,42 +53,53 @@ In the end add 10 to the value of z and print the final value of z.
 
 code:
 
+import java.io.*;
 import java.util.*;
-public class Main
-{
-	public static void main(String[] args) {
-	Scanner xx = new Scanner(System.in);
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+    Scanner xx = new Scanner(System.in);
     int x = xx.nextInt();
     int y = xx.nextInt();
     int z = xx.nextInt();
-        if (x/3==0) {
+        if (x%3==0) {
             if(y>=200){
-                System.out.println(z+10);
+                System.out.println(z+10+10);
             }
             else if(y>=100 && y<200){
-                System.out.println(z+5);
+                System.out.println(z+5+10);
             }
             else if(y>=50 && y<100){
-                System.out.println(z+4);
+                System.out.println(z+4+10);
             }
             else {
-                System.out.println(z+1);
+                System.out.println(z+1+10);
             }
         }
         else {
             if(y>=200){
-                System.out.println(z+3);
+                int a=(z+3)+10;
+                System.out.println(a);
             }
             else if(y>=100 && y<200){
-                System.out.println(z+2);
+                int a=(z+2)+10;
+                System.out.println(a);
             }
             else if(y>=50 && y<100){
-                System.out.println(z+4);
+                int a=(z+4)+10;
+                System.out.println(a);
             }
             else {
-                System.out.println(z+1);
+                int a=(z+1)+10;
+                System.out.println(a);
             }
         }
-	}
+        
+    }
 }
-
+        /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
+    
