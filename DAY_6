@@ -1,0 +1,72 @@
+1. Take integer inputs a, b, and
+    a. If a is greater than 100 and b is greater than 10, then print “a is above 100
+       and b is above 10”
+    b. If a is greater than 50 and b is greater than 50, then print “a is above 50 and
+    b is above 50”
+    c. If a is greater than 20 and b is greater than 100, then print “a is above 20
+       and b is above 100”
+    d. If none of the above condition follows then print “None”
+
+code:
+
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+      Scanner xx = new Scanner(System.in);
+      int a = xx.nextInt();
+      int b = xx.nextInt();
+      if(a>100 && b>10)
+      {
+        System.out.println("a is above 100 and b is above 10");
+      }
+      else if(a>50 && b>50)
+      {
+        System.out.println("a is above 50 and b is above 50");
+      }
+      else if(a>20 && b>100)
+      {
+        System.out.println("a is above 20 and b is above 100");
+      }
+      else
+      {
+        System.out.println("None");
+      }
+    }
+}
+
+
+2. Take height, weight and age of a person as an integer input and follow these
+conditions below in the stepwise manner, which is if the condition given before
+fails only then move on to the next condition, otherwise don’t
+    a. If height is equal to 5 and weight is equal to 50 and age is equal to 10, then print “Overweight”
+    b. If height is equal to 5 or weight is equal to 60, then print “Fat”
+    c. If height is equal to 6 and weight is equal to 50, then print “Slim”
+    d. If none of the condition follows, then print “None”
+    
+    code:
+    
+    import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+      Scanner xx = new Scanner(System.in);
+      int height = xx.nextInt();
+      int weight = xx.nextInt();
+      int age = xx.nextInt();
+      if(height == 5 && weight == 50 && age == 10)
+      {
+        System.out.println("Overweight");
+      }
+      else if(height == 5 && weight == 60 )
+      {
+        System.out.println("Fat");
+      }
+      else if(height == 6 && weight == 50 )
+      {
+        System.out.println("Slim");
+      }
+      else
+      {
+        System.out.println("None");
+      }
+    }
+}
