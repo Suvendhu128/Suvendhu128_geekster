@@ -15,7 +15,7 @@ public class Main
 	
       Scanner xx = new Scanner(System.in);
     int x = xx.nextInt();
-        if (x/2==0) {
+        if (x%2==0) {
             if(x>1000){
                 System.out.println("Even and above 1000");
             }
